@@ -1,0 +1,151 @@
+:root {
+  --mainColer: #ff206e;
+}
+/*navbar*/
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--mainColer);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--mainColer);
+}
+.header .icons:hover {
+  background-color: var(--mainColer);
+  transition: background-color 1s;
+  border: 0;
+}
+/*header*/
+.header {
+  background-image: url(../pic/bg_osaka.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header .header-content a {
+  color: var(--mainColer);
+}
+.icons {
+  width: 3rem;
+  height: 3rem;
+}
+
+/*about*/
+
+.about {
+  background-image: url(../pic/light_dot.jpg);
+}
+.title h2 {
+  font-size: 4rem;
+  letter-spacing: 15px;
+  color: #cacaca;
+  font-weight: 1000;
+}
+.title h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 38.4px;
+}
+.about .about-content p:first-of-type {
+  color: var(--mainColer);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+}
+.about p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 1rem;
+}
+/*Services*/
+.services {
+  background-image: url(../pic/dark_dot.jpg);
+}
+.services-tiltle h2 {
+  color: #222;
+  font-size: 4rem;
+  letter-spacing: 15px;
+  font-weight: 1000;
+}
+.first-p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+}
+.services-item {
+  border-radius: 6px;
+}
+.services .services-item h2::after {
+  content: "";
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 10%;
+  height: 3px;
+  background-color: var(--mainColer);
+  transition: width 1s;
+  margin-top: 10px;
+}
+.services .services-item:hover h2::after {
+  width: 30%;
+}
+.services-tiltle h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.services-item .icons {
+  background-color: #000;
+  transition: background-color 1s;
+}
+.services-item:hover .icons {
+  background-color: var(--mainColer);
+}
+/* clients*/
+.clients .client img {
+  width: 110px;
+  height: 110px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+  text-indent: 0;
+  border-radius: 50%;
+  background-color: #000;
+}
+.carousel-indicators  .img-fluid {
+  width: 30px;
+  height: 30px;
+}
+/*projects*/
+.nav-tabs{
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: var(--mainColer);
+  border: none;
+}
+.nav-tabs .nav-link{
+  color: #000;
+  border: none;
+}
+.carousel-item img{
+  width: 750px;
+  height: 420px;
+}
+.carousel-item h5{
+  color:rgb(9, 117, 218);
+  font-size: 50px;
+}
+.card p {
+  color: bisque;
+  background-color: black;
+  text-align: center;
+}
+.card img {
+  width: 250px;
+  height: 250px;
+}
